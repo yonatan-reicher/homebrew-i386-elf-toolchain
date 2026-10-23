@@ -19,6 +19,7 @@ class I386ElfGcc < Formula
                              "--disable-werror",
                              "--without-headers",
                              "--without-isl",
+                             "--with-system-zlib",
                              "--enable-languages=c,c++"
 
       system "make", "all-gcc"

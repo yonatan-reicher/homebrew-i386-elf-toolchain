@@ -14,7 +14,8 @@ class I386ElfBinutils < Formula
                              "--disable-multilib",
                              "--disable-nls",
                              "--disable-werror",
-                             "--enable-interwork"
+                             "--enable-interwork",
+                             "--with-system-zlib"
       system "make"
       system "make", "install"
     end
