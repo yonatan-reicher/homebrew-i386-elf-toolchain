@@ -4,6 +4,11 @@ This is the fork of the original repo, it fixes some problems I ran into when
 using this tap. See instructions below, but when copy-pasting wherever
 `nativeos` is written, replace it with my username, `yonatan-reicher`.
 
+Also note: I tested only the `binutils` and `gcc` formulae, so others probably
+won't. Hopefully I'll test and update all of them.
+
+Jonathan out.
+
 ---
 
 ![GCC toolchain for i386]
