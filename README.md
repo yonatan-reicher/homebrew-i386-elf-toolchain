@@ -1,5 +1,11 @@
 # i386-elf-toolchain tap
 
+This is the fork of the original repo, it fixes some problems I ran into when
+using this tap. See instructions below, but when copy-pasting wherever
+`nativeos` is written, replace it with my username, `yonatan-reicher`.
+
+---
+
 ![GCC toolchain for i386]
 
 This tap provides Homebrew formulas to build a suitable compiler for the
